@@ -1,0 +1,109 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int a = -5;          // Integer variable
+ cout<<a<<endl;
+
+ float b = 4.0;         // Float variable
+ cout<<b<<endl;
+
+ string s = "abcd" ;  // String variable
+ cout<<s<<endl;
+
+ int ar[4]={7,8,9,10};   // Integer array
+cout<<ar[2];
+
+  return 0;
+}
+..................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int N;
+ cin>>N;
+ cout<<N;
+
+}
+............................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int A,B,C;
+ cin>>A>>B>>C;
+ cout<<A<<" "<<B<<" "<<C;
+  return 0;
+}
+..............................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int A, B, C, D, E, F, G, H, I;
+ cin>>A>>B;
+ cin>>C>>E;
+ cin>>H>>I;
+ cout<<A<<" "<<B<<" "<<C<<" "<<D<<" "<<E<<" "<<F<<" "<<G<<" "<<H<<" "<<I;
+  return 0;
+}
+...............................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int A, B, C, D, E, F, G, H, I;
+ cin>>A>>B;
+ cin>>C>>D>>E;
+ cin>>F>>G>>H>>I;
+ cout<<A<<" "<<B<<" "<<C<<" "<<D<<" "<<E<<" "<<F<<" "<<G<<" "<<H<<" "<<I;
+  return 0;
+}
+.................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ string A,B,C,D,E,F,G,H,I;
+ cin>>A>>B;
+ cin>>C>>D>>E;
+ cin>>F>>G>>H>>I;
+ cout<<A<<" "<<B<<" "<<C<<" "<<D<<" "<<E<<" "<<F<<" "<<G<<" "<<H<<" "<<I;
+  return 0;
+}
+................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int a = 5;
+ cout<<a<<endl;
+ 		
+ string b = "abcde";		
+ cout<<b<<endl;
+		
+ int array[] = {1,2,3}; 
+ cout<<array[0]<<" "<<array[1]<<" "<<array[2];	
+}
+.....................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int N;
+ string S;
+ cin>>N;
+ cin>>S;
+ cout<<N<<" "<<S;
+  return 0;
+}
+......................................
