@@ -107,3 +107,155 @@ int main()
   return 0;
 }
 ......................................
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int A, B, C, D, E;
+    cin>> A;
+     cin>>B;
+    cin>> C;
+    cin>> D;
+    cin>> E;
+    cout<<A << endl;
+    cout<< B << endl;
+    cout<<C << endl;
+    cout<< D << endl;
+    cout<< E <<endl;
+}
+..................................
+using namespace std;
+
+int main() 
+{
+ int t;
+ //accept the count of test cases given in the the 1st line
+ cin>>t;
+ //Run a loop to accept 't' inputs
+while(t--)
+ { 
+   int N;
+ //accept an integer N in each test case
+   cin>>N;
+ //output the number mirror for each test case
+   cout<<N<<endl;
+  }  
+ return 0;
+}
+.....................................
+int main() 
+{
+ int t;
+ //accept the count of test cases given in the the 1st line
+ cin>>t;
+ //Run a loop to accept 't' inputs
+while(t--)
+ { 
+   int A,B,C,D,E;
+ //accept 2 integers on the 1st line of each test case
+   cin>>A>>B;
+ //accept 3 integers on the 1st line of each test case
+   cin>>C>>D>>E;
+ //output the 5 integers on a single line for each test case 
+   cout<<A<<" "<<B<<" "<<C<<" "<<D<<" "<<E<<endl;
+  }
+ return 0;
+}
+......................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ //accept the count of test cases given in the the 1st line
+ cin>>t;
+ //Run a loop to accept 't' inputs
+while(t--)
+ { 
+   int A,B;
+   string S;
+ //accept 2 integers on the 1st line of each test case
+   cin>>A>>B;
+ //accept 1 string on the 2nd line of each test case
+  cin>>S;
+ //output the 5 integers on a single line for each test case 
+   cout<<A<<" "<<B<<" "<<S<<endl;
+  }
+ return 0;
+}
+..........................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+
+ cin>>t;
+
+while(t--)
+ { 
+   int N;
+   cin>>N;
+   cout<<N+1<<endl;
+  }
+ return 0;
+}
+........................................
+using namespace std;
+
+int main() 
+{
+ int t;
+ //accept the count of test cases given in the the 1st line
+ cin>>t;
+ //Run a loop to accept 't' inputs
+while(t--)
+ { 
+   int N;
+ //accept 1 integer on the 1st line of each test case
+   cin>>N;
+ //output the negative integer - i.e. (-N)
+   cout<<-N<<endl;
+  }
+ return 0;
+}
+..........................
+using namespace std;
+
+int main() 
+{
+ int t;
+ //accept the count of test cases given in the the 1st line
+ cin>>t;
+ //Run a loop to accept 't' inputs
+while(t--)
+ { 
+   string S,X;
+   cin>>S;
+ //Store the value of string S concatenated with itself to variable X
+   X=S+S;
+   cout<<X<<endl;
+  }
+ return 0;
+}
+.......................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+while(t--)
+{
+   int N;
+   cin>>N;
+   cout<<2*N<<endl;
+  }
+ return 0;
+}
+.................................
