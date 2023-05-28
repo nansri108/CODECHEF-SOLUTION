@@ -259,3 +259,41 @@ while(t--)
  return 0;
 }
 .................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y;
+   cin>>X;
+   //Create a new variable Y for total distance. 5 days a week - Chef will travel 2*X distance each day - i.e. return trip walk to office
+    Y = 5 * 2 * X;  
+   //Output distance traveled for each test case
+    cout<<Y<<endl;
+   }
+ return 0;
+}
+.....................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y,prize_top10,prize_11to100;
+   cin>>X>>Y;
+   prize_top10 = 10*X;           
+   prize_11to100 = 90*Y;        
+   cout<<prize_top10+prize_11to100<<endl; 
+   }
+ return 0;
+}
+.................................
+
