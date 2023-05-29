@@ -43,3 +43,75 @@ int main()
   }
  
 }
+......................................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   double A, X;
+   int B;
+   cin >> A>> B;
+   //Division of A by B (double / int)
+   X = A/B;
+   cout << X << endl;
+  }
+}
+...............................
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,N;
+   cin>>X>>N;
+  int  points_per_testcase=X/10;
+    int score= points_per_testcase*N;
+   cout<<score<<endl;
+   }
+ return 0;
+}
+.....................................
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y,Z;
+   cin>>X>>Y>>Z;
+   // Variable declared to hold the final population of the town
+   int total_population = X - Y;
+
+   total_population = total_population + Z;
+   cout<<total_population<<endl;
+   }
+ return 0;
+}
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y;
+   cin>>X;
+   Y=15*X;
+   cout<<Y<<endl;
+  }
+  return 0;
+}
+...............................
+
